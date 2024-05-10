@@ -7,7 +7,15 @@ import org.apache.xmlrpc.server.XmlRpcServer;
 import org.apache.xmlrpc.server.XmlRpcServerConfigImpl;
 import org.apache.xmlrpc.webserver.WebServer;
 
+
+/**
+ *
+ */
 public class App {
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         try {
             System.out.println("Iniciando servidor XML-RPC...");
